@@ -1,7 +1,7 @@
 # maglit-cli
 A small python script to shorten links via maglit.me, over cli
 
-![ApplicationFrameHost_qXhcOwmgco](https://user-images.githubusercontent.com/83690012/236695665-3ff479d0-5fde-4aec-8f0e-1e425467c449.png)
+![ApplicationFrameHost_O3syXWBZf5](https://user-images.githubusercontent.com/83690012/236696225-6e4bb2a6-dd00-47e7-8f93-615f64217fb2.png)
 
 
 ## Features 
