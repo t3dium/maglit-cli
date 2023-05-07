@@ -1,7 +1,7 @@
 # maglit-cli
 A small python script to shorten links via maglit.me, over cli
 
-![ApplicationFrameHost_2cLnmawfXa](https://user-images.githubusercontent.com/83690012/236680834-96e3ed9f-4f30-44f6-9b9e-deddb0872553.png)
+![ApplicationFrameHost_qXhcOwmgco](https://user-images.githubusercontent.com/83690012/236695665-3ff479d0-5fde-4aec-8f0e-1e425467c449.png)
 
 
 ## Features 
@@ -10,7 +10,7 @@ A small python script to shorten links via maglit.me, over cli
 - [x] Custom shortened link
 - [x] Randomly generating shortened links
 - [ ] Optionally saving password to re-use it for other links automatically
-- [ ] Generating a QR code for the shortened link 
+- [x] Generating a QR code for the shortened link 
 
 ## Todo
 
@@ -20,3 +20,4 @@ Somehow making the script unattended if inputs are passed to it already (such as
 
 * rich - ``pip install rich``
 * requests - ``pip install requests``
+* qrcode_terminal - ``pip install qrcode_terminal``
