@@ -10,6 +10,7 @@ A small python script to shorten links via maglit.me, over cli
 - [x] Custom shortened link
 - [x] Randomly generating shortened links
 - [ ] Optionally saving password to re-use it for other links automatically
+- [ ] Generating a QR code for the shortened link 
 
 ## Todo
 
