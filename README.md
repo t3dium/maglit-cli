@@ -1,11 +1,15 @@
 # maglit-cli
 A small python script to shorten links via maglit.me, over cli
 
+![ApplicationFrameHost_2cLnmawfXa](https://user-images.githubusercontent.com/83690012/236680834-96e3ed9f-4f30-44f6-9b9e-deddb0872553.png)
+
+
 ## Features 
 
-- [ ] Optional password protection - custom or randomly generated 
-- [ ] Custom shortened link
-- [ ] Randomly generating shortened links
+- [x] Optional password protection - custom or randomly generated 
+- [x] Custom shortened link
+- [x] Randomly generating shortened links
+- [ ] Optionally saving password to re-use it for other links automatically
 
 ## Todo
 
