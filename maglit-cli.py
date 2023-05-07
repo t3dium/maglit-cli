@@ -4,7 +4,7 @@ import secrets
 import os.path
 from rich import print as rprint
 from rich.panel import Panel
-
+import qrcode_terminal
 def generate_random(strength):
     global output
 
@@ -52,9 +52,18 @@ def get_input():
 [blue]The shortened link is available at: [green]{final_shortened_link}
         
 [blue]The password is [green]{password}
-        """))
+
+[blue] A QR code for the link is also displayed below: 
+"""))
     else:
-        rprint(Panel(f"[blue]The shortened link is available at: [green]{final_shortened_link}"))
+        rprint(Panel(f"""
+[blue]The shortened link is available at: [green]{final_shortened_link}
+        
+[blue] A QR code for the link is also displayed below: 
+"""))
+
+    # display QR code
+    qrcode_terminal.draw(final_shortened_link)
 
     # shorten link and pass the custom parameters
     shorten(link_to_shorten, password, custom_shortened_link)
